@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "newlibrary"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of newlibrary."
+  spec.summary      = "A small framework to monitor network changes in Swift."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,9 +25,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+                   New library is a small and lightweight Swift framework that allows to monitor and being notified for network status changes in a super-easy way!
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/newlibrary"
+  spec.homepage     = "https://appcoda.com"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -52,10 +53,10 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "Dinesh" => "106303826+devasurya146@users.noreply.github.com" }
-  # Or just: spec.author    = "Dinesh"
-  # spec.authors            = { "Dinesh" => "106303826+devasurya146@users.noreply.github.com" }
-  # spec.social_media_url   = "https://twitter.com/Dinesh"
+  spec.author             = { "“devasurya146”" => "“devasurya146@gmail.com”" }
+  # Or just: spec.author    = "“devasurya146”"
+  # spec.authors            = { "“devasurya146”" => "“devasurya146@gmail.com”" }
+  # spec.social_media_url   = "https://twitter.com/“devasurya146”"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -63,7 +64,7 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
+  # spec.platform     = :ios, "15.0"
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -79,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/newlibrary.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/devasurya146/new_library_framework.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
