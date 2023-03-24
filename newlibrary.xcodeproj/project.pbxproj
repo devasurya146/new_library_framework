@@ -11,6 +11,9 @@
 		1BF36E0B29CB04BC009CFC1B /* newlibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF36E0029CB04BC009CFC1B /* newlibrary.framework */; };
 		1BF36E1029CB04BC009CFC1B /* newlibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF36E0F29CB04BC009CFC1B /* newlibraryTests.swift */; };
 		1BF36E1129CB04BC009CFC1B /* newlibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BF36E0329CB04BC009CFC1B /* newlibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BF36E1B29CB04F5009CFC1B /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF36E1A29CB04F4009CFC1B /* Manager.swift */; };
+		1BF36E1D29CB052E009CFC1B /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF36E1C29CB052E009CFC1B /* MyViewController.swift */; };
+		1BF36E1F29CB0572009CFC1B /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BF36E1E29CB0572009CFC1B /* MyViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,14 @@
 		1BF36E0429CB04BC009CFC1B /* newlibrary.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = newlibrary.docc; sourceTree = "<group>"; };
 		1BF36E0A29CB04BC009CFC1B /* newlibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = newlibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF36E0F29CB04BC009CFC1B /* newlibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newlibraryTests.swift; sourceTree = "<group>"; };
+		1BF36E1A29CB04F4009CFC1B /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		1BF36E1C29CB052E009CFC1B /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		1BF36E1E29CB0572009CFC1B /* MyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		1BF36E2229CB06B9009CFC1B /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		1BF36E2329CB06B9009CFC1B /* newlibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = newlibrary.h; sourceTree = "<group>"; };
+		1BF36E2429CB06B9009CFC1B /* MyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		1BF36E2529CB06B9009CFC1B /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		1BF36E2629CB06B9009CFC1B /* newlibrary.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = newlibrary.docc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,7 @@
 				1BF36E0229CB04BC009CFC1B /* newlibrary */,
 				1BF36E0E29CB04BC009CFC1B /* newlibraryTests */,
 				1BF36E0129CB04BC009CFC1B /* Products */,
+				1BF36E2029CB06B9009CFC1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				1BF36E0329CB04BC009CFC1B /* newlibrary.h */,
+				1BF36E1A29CB04F4009CFC1B /* Manager.swift */,
+				1BF36E1E29CB0572009CFC1B /* MyViewController.xib */,
+				1BF36E1C29CB052E009CFC1B /* MyViewController.swift */,
 				1BF36E0429CB04BC009CFC1B /* newlibrary.docc */,
 			);
 			path = newlibrary;
@@ -83,6 +98,26 @@
 				1BF36E0F29CB04BC009CFC1B /* newlibraryTests.swift */,
 			);
 			path = newlibraryTests;
+			sourceTree = "<group>";
+		};
+		1BF36E2029CB06B9009CFC1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BF36E2129CB06B9009CFC1B /* newlibrary */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BF36E2129CB06B9009CFC1B /* newlibrary */ = {
+			isa = PBXGroup;
+			children = (
+				1BF36E2229CB06B9009CFC1B /* Manager.swift */,
+				1BF36E2329CB06B9009CFC1B /* newlibrary.h */,
+				1BF36E2429CB06B9009CFC1B /* MyViewController.xib */,
+				1BF36E2529CB06B9009CFC1B /* MyViewController.swift */,
+				1BF36E2629CB06B9009CFC1B /* newlibrary.docc */,
+			);
+			path = newlibrary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BF36E1F29CB0572009CFC1B /* MyViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +231,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BF36E0529CB04BC009CFC1B /* newlibrary.docc in Sources */,
+				1BF36E1D29CB052E009CFC1B /* MyViewController.swift in Sources */,
+				1BF36E1B29CB04F5009CFC1B /* Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +388,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -378,6 +417,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -396,6 +436,7 @@
 		1BF36E1829CB04BC009CFC1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QK2Y5JN4W9;
@@ -412,6 +453,7 @@
 		1BF36E1929CB04BC009CFC1B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QK2Y5JN4W9;
